@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-preeti: 'Preeti', sans-serif;
+  
+  --color-primary-dark: #121212;
+  --color-text-dark: #E0E0E0;
+  --color-secondary-dark: #2e2e2e;
+  --color-tertiary-dark: #242424;
+  --color-border-dark: #374151;
+}
+
+@plugin 'tailwindcss-animate';
+
+/*
+  Dark mode is now handled automatically in Tailwind v4
+  You can still use class-based dark mode by adding:
+*/
+@layer base {
+  :root {
+    color-scheme: light dark;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-button {
+  background: #ccc;
+}
+::-webkit-scrollbar-track-piece {
+  background: #888;
+}
+::-webkit-scrollbar-thumb {
+  background: #eee;
+}
