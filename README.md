@@ -135,7 +135,7 @@ NCA2/
 
 The app configuration is defined in [`src-tauri/tauri.conf.json`](src-tauri/tauri.conf.json):
 
-- **Product Name**: Nepali Christiam App
+- **Product Name**: Nepali Christian App
 - **Version**: 0.1.0
 - **Bundle Identifier**: com.saralkarki.nca2
 - **Window Size**: 1100x800 (minimum 800x600)
