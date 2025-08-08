@@ -1,6 +1,6 @@
 # Nepal Christian App (NCA2)
 
-A modern desktop application for the Nepali Christian community, built with Tauri, React, and TypeScript that provides access to Nepali Christian hymns (Bhajans) and the complete Bible in Nepali language.
+A modern desktop application for the Nepali Christian community, built with Tauri, React, and TypeScript that provides access to Nepali Christian hymns (Bhajans) and the complete Bible in Nepali language. This is upgrade from old electron based app [NCA] (https://github.com/Saral33/NCA)
 
 ## 🌟 Features
 
