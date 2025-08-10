@@ -1,6 +1,6 @@
 // SplashScreen.jsx
 
-import logo from '@/renderer/src/assets/logodark.png' // Import your logo image
+import logo from '@/renderer/src/assets/revisedlogodark.png' // Import your logo image
 import { useEffect, useState } from 'react'
 
 const SplashScreen = (): JSX.Element => {
