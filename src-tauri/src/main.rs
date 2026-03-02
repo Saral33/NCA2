@@ -1,6 +1,10 @@
 // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
+#![cfg_attr(
+    all(not(debug_assertions), target_os = "windows"),
+    windows_subsystem = "windows"
+)]
 
 fn main() {
     tauri::Builder::default()
